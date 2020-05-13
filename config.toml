@@ -1,0 +1,155 @@
+
+#
+# Configuración básica del sitio
+#[user]
+title = "TECNOLOGIA WEB"                 # Titulo de la Web
+theme = "beautifulhugo"                  # Tema
+baseurl = "https://github.com/isaisi98"  # URL base
+metaDataFormat = "yaml"					 # Formato de las cabeceras de las entradas
+DefaultContentLanguage = "es"			 # Lenguaje de la Web (activa localizaciín)
+publishDir = "docs" #
+# DefaultContentLanguage = "ja"
+
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#
+# Configuración de los comentarios (Disqus)
+#
+disqusShortname = ""
+#
+# Configuracion de las estadisticas (Google Analytics)
+#
+googleAnalytics = ""
+#
+#Configuracion de párametros del sitio web
+#
+[Params]
+  subtitle       = "Diseño de Paginas Web Estaticas con Hugo y publicados en Githup" # Subtitulo
+  # mainSections = ["post","posts"]
+  logo           = "img/Bella.jpg"			# Logo
+  favicon        = "img/favicon.ico"		# Iconos
+  dateFormat     = "15-05-2020"				# Formato de fechas
+  commit         = false					# Commit en footer
+  rss            = true						# Sindicación
+  comments       = true						# Comentarios Activos por defecto
+  readingTime    = true						# Estimación del tiempo de Lectura
+  #wordCount      = true
+  useHLJS        = true						# Highlidht.js para resaltado
+  socialShare    = true						# Compartir entradas en redes sociales
+
+# delayDisqus = true
+# showRelatedPosts = true
+# hideAuthor = true
+# gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/cabecera1.jpg"
+#  desc = "Triangle"
+[[Params.bigimg]]
+  src = "img/cabecera2.jpg"
+#  desc = "Sphere"
+[[Params.bigimg]]
+  src = "img/cabecera3.jpg"
+#  desc = "Sphere"
+[[Params.bigimg]]
+  src = "img/cab1.jpg"
+#  desc = "Sphere"
+[[Params.bigimg]]
+  src = "img/cab2.jpg"
+#  desc = "Sphere"
+# ---------------------------------Este boque queda en comentarios
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+#
+# Configuracion del autor
+#
+[Author]
+  name = "Isabel Naranjo"
+  email = "isaisi98@gmail.com"
+  website = "https://github.com/isaisi98"
+  #facebook = "username"
+  github = "isaisi98"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # twitter = "username"
+  # reddit = "username"
+  # linkedin = "username"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # slack = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "samples"
+    name = "Samples"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Big Image Sample"
+    url = "post/2017-03-07-bigimg-sample"
+    weight = 1
+
+[[menu.main]]
+    parent = "samples"
+    name = "Math Sample"
+    url = "post/2017-03-05-math-sample"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Code Sample"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+ #
+ # Configuración de taxonomias
+ #
+ [taxonomies]
+ 	category = "categories"
+ 	tag      = "tags"
+ 	apartado = "apartados"
+ 	proyecto = "proyetos"
+ 	etiqueta = "etiquetas"
+  #
+  # Configuracion del parmalink - Permanece la fecha y hora de publicacion
+  #
+  [permalink]
+  	post = "/:year/:month/:day/:slug/"
+publishDir = "docs"

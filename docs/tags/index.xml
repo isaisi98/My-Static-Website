@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on TECNOLOGIA WEB</title>
+    <link>https://github.com/isaisi98/tags/</link>
+    <description>Recent content in Tags on TECNOLOGIA WEB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>isaisi98@gmail.com (Isabel Naranjo)</managingEditor>
+    <webMaster>isaisi98@gmail.com (Isabel Naranjo)</webMaster>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://github.com/isaisi98/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>example</title>
+      <link>https://github.com/isaisi98/tags/example/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photoswipe</title>
+      <link>https://github.com/isaisi98/tags/photoswipe/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/photoswipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bigimg</title>
+      <link>https://github.com/isaisi98/tags/bigimg/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/bigimg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://github.com/isaisi98/tags/math/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://github.com/isaisi98/tags/code/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://github.com/isaisi98/tags/markdown/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <author>isaisi98@gmail.com (Isabel Naranjo)</author>
+      <guid>https://github.com/isaisi98/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
